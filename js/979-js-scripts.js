@@ -22,7 +22,7 @@ window.onload = function() {
     'I am specialized in Data Science and Generative AI 💻 🤖',
     'Email me @ <a href="mailto:mghali1@binghamton.edu">mghali1@binghamton.edu</a>',
     'Contact Me on Linkedin <br> <a href="https://www.linkedin.com/in/mohammed-khalil-ghali-11305119b/">linkedin.com/in/Mohammed-Khalil</a>',
-    'Check out my projects on Github <br> <a href="https://github.com/khalil-ghali">github.com/Mohammed-Khalil Ghali</a>',
+    'Check out my projects <br> <a href="https://projects.mohammedkhalilghali.com">Generative AI Projects Portfolio</a>',
     'Go Back to <br> <a href="index.html">Portfolio Homepage</a>',
 
 
@@ -82,7 +82,7 @@ window.onload = function() {
 
   var sendMessage = function(message, position) {
     var loadingDuration =
-      message.replace(/<(?:.|\n)*?>/gm, '').length * typingSpeed + 500;
+      message.replace(/<(?:.|\n)*?>/gm, '').length * typingSpeed + 100;
     var elements = createBubbleElements(message, position);
     messagesEl.appendChild(elements.bubble);
     messagesEl.appendChild(document.createElement('br'));
@@ -97,7 +97,7 @@ window.onload = function() {
       var scrollMessages = anime({
         targets: messagesEl,
         scrollTop: bubbleOffset,
-        duration: 750,
+        duration: 500,
       });
     }
     var bubbleSize = anime({

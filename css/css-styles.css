@@ -30,6 +30,7 @@ body {
   padding: 1rem .9rem;
 }
 .bubble {
+  color:#ffffff;
   overflow: hidden;
   display: inline-block;
   margin: 0 0 1.25rem 0;
@@ -80,7 +81,7 @@ body {
 .bubble .loading b {
   display: inline-block;
   font-size: 1.5rem; /* Adjust the font size to decrease the size */
-  color: rgba(0, 0, 0, 0.5);
+  color: rgba(253, 252, 252, 0.5);
   position: relative;
   top: 75%;
   transform: translateY(75%);
