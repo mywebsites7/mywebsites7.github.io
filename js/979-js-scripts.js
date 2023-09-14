@@ -22,7 +22,7 @@ window.onload = function() {
     'I am specialized in Data Science and Generative AI 💻 🤖',
     'Email me @ <a href="mailto:mghali1@binghamton.edu">mghali1@binghamton.edu</a>',
     'Contact Me on Linkedin <br> <a href="https://www.linkedin.com/in/mohammed-khalil-ghali-11305119b/">linkedin.com/in/Mohammed-Khalil</a>',
-    'Check out my projects <br> <a href="https://projects.mohammedkhalilghali.com">Generative AI Projects Portfolio</a>',
+    'Check out my projects <br> <a href="https://projects.mohammedkhalilghali.com" target="_blank">Generative AI Projects Portfolio</a>',
     'Go Back to <br> <a href="index.html">Portfolio Homepage</a>',
 
 
